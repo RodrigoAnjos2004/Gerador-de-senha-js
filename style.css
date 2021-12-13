@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+body{ 
+    background: #000000;  
+	background: -webkit-linear-gradient(to right, #22694c, #73aa47);  
+	background: linear-gradient(to right, #102718, #181e2b); 
+	color: #fff;
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	min-height: 80vh;
+}
+
+h2{
+	font-size: 32px;
+    margin: 10px 0 20px;
+	text-align: center;
+}
+
+.box {
+    background: #000000; 
+	background: linear-gradient(to right, #2a9852, #181e2b); 
+	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+	padding: 100px;
+	width: 900px;
+	max-width: 100%;
+	border-radius: 20px;
+}
+
+.result {
+  background-color: rgba(0, 0, 0, 0.4);
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+.result #result{
+  word-wrap: break-word;
+  max-width: calc(100% - 100px);
+}
+
+.result .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 100px;
+}
+
+
+.config{
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+}
+.passButton {
+	font-family: Roboto, sans-serif;
+	font-size: 24px;
+	padding: 40px 300px;
+	text-transform: uppercase;
+	border-radius: 4px;
+	border: none;
+	color: white;
+	background: red; /* par navegadores que não tem suporte a gradient*/
+	background: -webkit-linear-gradient(left top, #00A8C5, #FFFF7E); /* Safari */
+	background: -o-linear-gradient(bottom right, #00A8C5, #FFFF7E); /* Opera  */
+	background: -moz-linear-gradient(bottom right, #00A8C5, #FFFF7E); /* Firefox */
+	background: linear-gradient(to bottom right, #00A8C5, #FFFF7E); /* Std syntaxe */
+	-webkit-box-shadow: 7px 6px 41px -15px rgba(255,255,255,1);
+	-moz-box-shadow: 7px 6px 41px -15px rgba(255,255,255,1);
+	box-shadow: 7px 6px 41px -15px rgba(255,255,255,1);
+
+  }
+  
+  .passButton:hover {
+	background: red; 
+	background: -webkit-linear-gradient(left top, #c52e00, #80800c); 
+	background: -o-linear-gradient(bottom right, #bf00c5, #3b3b16); 
+	background: -moz-linear-gradient(bottom right, #c55900, #FFFF7E); 
+	background: linear-gradient(to bottom right, #c500b5, #eeee67); 
+	-webkit-box-shadow: 7px 6px 41px -15px rgba(255,255,255,1);
+	-moz-box-shadow: 7px 6px 41px -15px rgba(255,255,255,1);
+	box-shadow: 7px 6px 41px -15px rgba(255,255,255,1);
+
+  }
