@@ -1,2 +1,2 @@
-# geradro-de-senha-js
+# gerador-de-senha-js
 ah é
